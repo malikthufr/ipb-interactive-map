@@ -1,0 +1,374 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4000" height="3000" viewBox="0 0 4000 3000">
+  <defs>
+    <!-- Gradients -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1f1f3a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </radialGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a4a5a"/>
+      <stop offset="50%" stop-color="#5a5a6e"/>
+      <stop offset="100%" stop-color="#4a4a5a"/>
+    </linearGradient>
+    <linearGradient id="lakeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a6b8a"/>
+      <stop offset="100%" stop-color="#0e4a60"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a1a"/>
+      <stop offset="100%" stop-color="#0f2a0f"/>
+    </linearGradient>
+    <!-- Tree pattern -->
+    <pattern id="treePattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="12" fill="#1a4a1a" opacity="0.5"/>
+      <circle cx="60" cy="50" r="14" fill="#1e5a1e" opacity="0.4"/>
+      <circle cx="40" cy="70" r="10" fill="#1a4a1a" opacity="0.35"/>
+      <circle cx="10" cy="60" r="8" fill="#1e5e1e" opacity="0.3"/>
+      <circle cx="70" cy="15" r="9" fill="#1a5a1a" opacity="0.3"/>
+    </pattern>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="shadowSmall" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="waterGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Building gradient template -->
+    <linearGradient id="buildGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect width="4000" height="3000" fill="url(#bgGrad)"/>
+
+  <!-- ============ GREEN ZONES / PARKS ============ -->
+  <!-- Large green area - left side -->
+  <ellipse cx="400" cy="1500" rx="350" ry="800" fill="#0f2a0f" opacity="0.6"/>
+  <ellipse cx="400" cy="1500" rx="350" ry="800" fill="url(#treePattern)" opacity="0.6"/>
+  
+  <!-- Large green area - right side -->
+  <ellipse cx="3600" cy="1500" rx="350" ry="800" fill="#0f2a0f" opacity="0.6"/>
+  <ellipse cx="3600" cy="1500" rx="350" ry="800" fill="url(#treePattern)" opacity="0.6"/>
+  
+  <!-- Top green zone -->
+  <ellipse cx="2000" cy="150" rx="800" ry="120" fill="#0f2a0f" opacity="0.5"/>
+  <ellipse cx="2000" cy="150" rx="800" ry="120" fill="url(#treePattern)" opacity="0.5"/>
+  
+  <!-- Bottom green zone -->
+  <ellipse cx="2000" cy="2900" rx="900" ry="140" fill="#0f2a0f" opacity="0.5"/>
+  <ellipse cx="2000" cy="2900" rx="900" ry="140" fill="url(#treePattern)" opacity="0.5"/>
+
+  <!-- Inner park areas -->
+  <ellipse cx="1300" cy="1550" rx="200" ry="150" fill="#142e14" opacity="0.5"/>
+  <ellipse cx="1300" cy="1550" rx="200" ry="150" fill="url(#treePattern)" opacity="0.5"/>
+  
+  <ellipse cx="2700" cy="1550" rx="200" ry="150" fill="#142e14" opacity="0.5"/>
+  <ellipse cx="2700" cy="1550" rx="200" ry="150" fill="url(#treePattern)" opacity="0.5"/>
+
+  <!-- Scattered trees along roads -->
+  <circle cx="1100" cy="500" r="40" fill="#1a4a1a" opacity="0.4"/>
+  <circle cx="1200" cy="480" r="35" fill="#1e5a1e" opacity="0.35"/>
+  <circle cx="2800" cy="500" r="38" fill="#1a4a1a" opacity="0.4"/>
+  <circle cx="2900" cy="520" r="42" fill="#1e5a1e" opacity="0.35"/>
+  <circle cx="1600" cy="2600" r="45" fill="#1a4a1a" opacity="0.4"/>
+  <circle cx="2400" cy="2600" r="40" fill="#1e5a1e" opacity="0.35"/>
+  <circle cx="1200" cy="2300" r="35" fill="#1a4a1a" opacity="0.4"/>
+  <circle cx="2800" cy="2300" r="38" fill="#1e5a1e" opacity="0.35"/>
+
+  <!-- Additional scattered trees inside campus -->
+  <circle cx="1650" cy="1100" r="30" fill="#1a4a1a" opacity="0.35"/>
+  <circle cx="2350" cy="1100" r="32" fill="#1e5a1e" opacity="0.3"/>
+  <circle cx="1400" cy="1900" r="28" fill="#1a4a1a" opacity="0.35"/>
+  <circle cx="2600" cy="1900" r="30" fill="#1e5a1e" opacity="0.3"/>
+  <circle cx="1700" cy="2250" r="25" fill="#1a4a1a" opacity="0.3"/>
+  <circle cx="2300" cy="2250" r="27" fill="#1e5a1e" opacity="0.3"/>
+
+  <!-- ============ LAKE / POND ============ -->
+  <ellipse cx="2000" cy="1580" rx="160" ry="90" fill="url(#lakeGrad)" filter="url(#waterGlow)" opacity="0.8"/>
+  <ellipse cx="2000" cy="1570" rx="120" ry="55" fill="#1a7a9a" opacity="0.3"/>
+  <ellipse cx="1960" cy="1560" rx="60" ry="25" fill="#2a8aaa" opacity="0.2"/>
+
+  <!-- ============ RING ROAD (Jl. Lingkar Kampus) ============ -->
+  <ellipse cx="2000" cy="1500" rx="1350" ry="1050" fill="none" stroke="#4a4a5a" stroke-width="35" opacity="0.9"/>
+  <ellipse cx="2000" cy="1500" rx="1350" ry="1050" fill="none" stroke="#5a5a6e" stroke-width="6" stroke-dasharray="30,20" opacity="0.4"/>
+
+  <!-- ============ MAIN ROADS ============ -->
+  <!-- Jl. Agatis - North-South main road (top) -->
+  <line x1="2000" y1="100" x2="2000" y2="450" stroke="#4a4a5a" stroke-width="28"/>
+  <line x1="2000" y1="100" x2="2000" y2="450" stroke="#5a5a6e" stroke-width="4" stroke-dasharray="20,15" opacity="0.4"/>
+
+  <!-- Jl. Meranti - connecting to left side -->
+  <line x1="650" y1="1500" x2="650" y2="500" stroke="#4a4a5a" stroke-width="22"/>
+  <line x1="650" y1="500" x2="2000" y2="500" stroke="#4a4a5a" stroke-width="22"/>
+  <line x1="650" y1="1500" x2="650" y2="500" stroke="#5a5a6e" stroke-width="3" stroke-dasharray="15,12" opacity="0.35"/>
+
+  <!-- Jl. Rasamala - vertical right side -->
+  <line x1="3100" y1="700" x2="3100" y2="2600" stroke="#4a4a5a" stroke-width="22"/>
+  <line x1="3100" y1="700" x2="3100" y2="2600" stroke="#5a5a6e" stroke-width="3" stroke-dasharray="15,12" opacity="0.35"/>
+
+  <!-- South exit road -->
+  <line x1="2000" y1="2550" x2="2000" y2="2950" stroke="#4a4a5a" stroke-width="28"/>
+  <line x1="2000" y1="2550" x2="2000" y2="2950" stroke="#5a5a6e" stroke-width="4" stroke-dasharray="20,15" opacity="0.4"/>
+
+  <!-- Internal connecting roads -->
+  <line x1="900" y1="1300" x2="1800" y2="1350" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="2000" y1="650" x2="2000" y2="2400" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="900" y1="1700" x2="2000" y2="1800" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="2400" y1="1350" x2="3100" y2="1200" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="2000" y1="2100" x2="3100" y2="2100" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="900" y1="2100" x2="2000" y2="2100" stroke="#3e3e50" stroke-width="14"/>
+  <line x1="900" y1="800" x2="900" y2="2500" stroke="#3e3e50" stroke-width="14"/>
+
+  <!-- ============ ROAD LABELS ============ -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#8a8aaa" font-style="italic" opacity="0.7">
+    <!-- Jl. Agatis -->
+    <text x="2060" y="300" transform="rotate(-90, 2060, 300)">Jl. Agatis</text>
+    <!-- Jl. Meranti -->
+    <text x="1200" y="470">Jl. Meranti</text>
+    <!-- Jl. Rasamala -->
+    <text x="3150" y="1400" transform="rotate(-90, 3150, 1400)">Jl. Rasamala</text>
+    <!-- Jl. Lingkar Kampus (along the ring road) -->
+    <text x="2800" y="600">Jl. Lingkar Kampus</text>
+    <text x="700" y="2200" transform="rotate(-45, 700, 2200)">Jl. Lingkar Kampus</text>
+  </g>
+
+  <!-- ============ BUILDINGS ============ -->
+  <!-- Each building: rounded rect + label -->
+
+  <!-- Gerbang Utama (2000, 250) #E74C3C -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1920" y="220" width="160" height="60" rx="8" fill="#E74C3C"/>
+    <rect x="1920" y="220" width="160" height="60" rx="8" fill="url(#buildGrad)"/>
+    <text x="2000" y="258" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="white" font-weight="bold">Gerbang Utama</text>
+  </g>
+
+  <!-- CCR/Teaching Lab (2000, 650) #1B4F72 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1880" y="615" width="240" height="70" rx="10" fill="#1B4F72"/>
+    <rect x="1880" y="615" width="240" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2000" y="658" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="white" font-weight="bold">CCR / Teaching Lab</text>
+  </g>
+
+  <!-- Rektorat (1500, 900) #1B4F72 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1400" y="865" width="200" height="70" rx="10" fill="#1B4F72"/>
+    <rect x="1400" y="865" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="1500" y="908" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="white" font-weight="bold">Rektorat</text>
+  </g>
+
+  <!-- GWW (2500, 900) #1B4F72 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="2400" y="865" width="200" height="70" rx="10" fill="#1B4F72"/>
+    <rect x="2400" y="865" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2500" y="908" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="white" font-weight="bold">GWW</text>
+  </g>
+
+  <!-- GOR/Sports (3200, 800) #1ABC9C -->
+  <g filter="url(#shadowSmall)">
+    <rect x="3100" y="765" width="200" height="70" rx="10" fill="#1ABC9C"/>
+    <rect x="3100" y="765" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="3200" y="808" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="white" font-weight="bold">GOR / Sports</text>
+  </g>
+
+  <!-- Asrama Putra (650, 800) #F39C12 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="545" y="765" width="210" height="70" rx="10" fill="#F39C12"/>
+    <rect x="545" y="765" width="210" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="650" y="808" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" fill="white" font-weight="bold">Asrama Putra</text>
+  </g>
+
+  <!-- Asrama Putri (650, 1100) #F39C12 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="545" y="1065" width="210" height="70" rx="10" fill="#F39C12"/>
+    <rect x="545" y="1065" width="210" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="650" y="1108" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" fill="white" font-weight="bold">Asrama Putri</text>
+  </g>
+
+  <!-- FMIPA (900, 1300) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="800" y="1265" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="800" y="1265" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="900" y="1308" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">FMIPA</text>
+  </g>
+
+  <!-- Perpustakaan (1800, 1350) #8E44AD -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1680" y="1315" width="240" height="70" rx="10" fill="#8E44AD"/>
+    <rect x="1680" y="1315" width="240" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="1800" y="1358" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="white" font-weight="bold">Perpustakaan</text>
+  </g>
+
+  <!-- Fateta (2400, 1350) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="2300" y="1315" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="2300" y="1315" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2400" y="1358" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">Fateta</text>
+  </g>
+
+  <!-- FKH (3100, 1200) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="3000" y="1165" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="3000" y="1165" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="3100" y="1208" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">FKH</text>
+  </g>
+
+  <!-- FEM (900, 1700) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="800" y="1665" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="800" y="1665" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="900" y="1708" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">FEM</text>
+  </g>
+
+  <!-- Masjid Al-Hurriyyah (2000, 1800) #2ECC71 -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1850" y="1765" width="300" height="70" rx="10" fill="#2ECC71"/>
+    <rect x="1850" y="1765" width="300" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2000" y="1808" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" fill="white" font-weight="bold">Masjid Al-Hurriyyah</text>
+  </g>
+
+  <!-- Fapet (3100, 1700) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="3000" y="1665" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="3000" y="1665" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="3100" y="1708" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">Fapet</text>
+  </g>
+
+  <!-- Faperta (900, 2100) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="800" y="2065" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="800" y="2065" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="900" y="2108" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">Faperta</text>
+  </g>
+
+  <!-- FPIK (2000, 2100) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1900" y="2065" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="1900" y="2065" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2000" y="2108" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">FPIK</text>
+  </g>
+
+  <!-- FK (3100, 2100) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="3000" y="2065" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="3000" y="2065" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="3100" y="2108" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">FK</text>
+  </g>
+
+  <!-- Fahutan (900, 2500) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="800" y="2465" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="800" y="2465" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="900" y="2508" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">Fahutan</text>
+  </g>
+
+  <!-- Fema (2000, 2400) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1900" y="2365" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="1900" y="2365" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="2000" y="2408" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">Fema</text>
+  </g>
+
+  <!-- SB-IPB (3100, 2500) #00723F -->
+  <g filter="url(#shadowSmall)">
+    <rect x="3000" y="2465" width="200" height="70" rx="10" fill="#00723F"/>
+    <rect x="3000" y="2465" width="200" height="70" rx="10" fill="url(#buildGrad)"/>
+    <text x="3100" y="2508" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="white" font-weight="bold">SB-IPB</text>
+  </g>
+
+  <!-- Gerbang Belakang (2000, 2800) #E74C3C -->
+  <g filter="url(#shadowSmall)">
+    <rect x="1880" y="2770" width="240" height="60" rx="8" fill="#E74C3C"/>
+    <rect x="1880" y="2770" width="240" height="60" rx="8" fill="url(#buildGrad)"/>
+    <text x="2000" y="2808" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="white" font-weight="bold">Gerbang Belakang</text>
+  </g>
+
+  <!-- ============ GATE MARKERS ============ -->
+  <!-- Gate marker triangle - top -->
+  <g filter="url(#glow)">
+    <polygon points="2000,170 1975,200 2025,200" fill="#E74C3C" opacity="0.8"/>
+    <polygon points="2000,170 1975,200 2025,200" fill="none" stroke="#ff6b6b" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <!-- Gate marker triangle - bottom -->
+  <g filter="url(#glow)">
+    <polygon points="2000,2870 1975,2840 2025,2840" fill="#E74C3C" opacity="0.8"/>
+    <polygon points="2000,2870 1975,2840 2025,2840" fill="none" stroke="#ff6b6b" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- ============ DECORATIVE ELEMENTS ============ -->
+  <!-- Compass rose (top-right corner) -->
+  <g transform="translate(3700, 200)" opacity="0.5">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#6a6a8a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#6a6a8a" stroke-width="1"/>
+    <polygon points="0,-55 -6,0 0,-15 6,0" fill="#8a8aaa"/>
+    <polygon points="0,55 -6,0 0,15 6,0" fill="#5a5a7a"/>
+    <polygon points="-55,0 0,-6 -15,0 0,6" fill="#5a5a7a"/>
+    <polygon points="55,0 0,-6 15,0 0,6" fill="#5a5a7a"/>
+    <text x="0" y="-68" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#8a8aaa" font-weight="bold">N</text>
+    <text x="0" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#6a6a8a">S</text>
+    <text x="75" y="6" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#6a6a8a">E</text>
+    <text x="-75" y="6" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#6a6a8a">W</text>
+  </g>
+
+  <!-- Map title -->
+  <text x="200" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="48" fill="#6a6aaa" font-weight="bold" opacity="0.6">IPB University</text>
+  <text x="200" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#5a5a8a" opacity="0.5">Kampus Dramaga, Bogor</text>
+
+  <!-- Scale bar -->
+  <g transform="translate(3400, 2850)" opacity="0.4">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#8a8aaa" stroke-width="2"/>
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#8a8aaa" stroke-width="2"/>
+    <line x1="200" y1="-6" x2="200" y2="6" stroke="#8a8aaa" stroke-width="2"/>
+    <line x1="100" y1="-4" x2="100" y2="4" stroke="#8a8aaa" stroke-width="1.5"/>
+    <text x="100" y="22" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#8a8aaa">~500m</text>
+  </g>
+
+  <!-- ============ TREE SYMBOLS (decorative) ============ -->
+  <!-- Clusters of stylized trees around the campus -->
+  <g opacity="0.45">
+    <!-- Near FMIPA -->
+    <circle cx="800" cy="1250" r="18" fill="#1a5a1a"/>
+    <circle cx="830" cy="1230" r="15" fill="#1e6a1e"/>
+    
+    <!-- Between buildings -->
+    <circle cx="1650" cy="1150" r="20" fill="#1a5a1a"/>
+    <circle cx="1680" cy="1170" r="16" fill="#1e6a1e"/>
+    <circle cx="1620" cy="1180" r="14" fill="#1a5a1a"/>
+    
+    <!-- Near Perpustakaan -->
+    <circle cx="1750" cy="1450" r="18" fill="#1e6a1e"/>
+    <circle cx="1720" cy="1430" r="14" fill="#1a5a1a"/>
+    
+    <!-- Near Masjid -->
+    <circle cx="2150" cy="1850" r="16" fill="#1a5a1a"/>
+    <circle cx="2180" cy="1870" r="14" fill="#1e6a1e"/>
+    <circle cx="1850" cy="1860" r="15" fill="#1a5a1a"/>
+    
+    <!-- Near lake -->
+    <circle cx="1830" cy="1530" r="16" fill="#1e6a1e"/>
+    <circle cx="2170" cy="1540" r="14" fill="#1a5a1a"/>
+    <circle cx="2190" cy="1600" r="18" fill="#1e6a1e"/>
+    <circle cx="1820" cy="1610" r="15" fill="#1a5a1a"/>
+    
+    <!-- South area -->
+    <circle cx="1300" cy="2300" r="20" fill="#1a5a1a"/>
+    <circle cx="1330" cy="2320" r="16" fill="#1e6a1e"/>
+    <circle cx="2700" cy="2400" r="18" fill="#1a5a1a"/>
+    <circle cx="2730" cy="2420" r="15" fill="#1e6a1e"/>
+  </g>
+
+  <!-- ============ ADDITIONAL DECORATIVE ROADS / PATHS ============ -->
+  <!-- Footpaths (thin, subtle) -->
+  <path d="M1500,900 Q1650,1100 1800,1350" fill="none" stroke="#3a3a4a" stroke-width="5" stroke-dasharray="8,6" opacity="0.4"/>
+  <path d="M2500,900 Q2450,1100 2400,1350" fill="none" stroke="#3a3a4a" stroke-width="5" stroke-dasharray="8,6" opacity="0.4"/>
+  <path d="M1800,1350 Q1900,1550 2000,1800" fill="none" stroke="#3a3a4a" stroke-width="5" stroke-dasharray="8,6" opacity="0.4"/>
+</svg>

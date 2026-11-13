@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kawasan-ipb-dramaga",
+        "name": "Kawasan Kampus IPB University Dramaga (267 Ha)",
+        "type": "campus_boundary",
+        "description": "Batas teritorial keseluruhan Kampus IPB Dramaga mengikuti area hijau Google Maps."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7268, -6.5620],
+            [106.7290, -6.5615],
+            [106.7315, -6.5605],
+            [106.7335, -6.5575],
+            [106.7340, -6.5555],
+            [106.7330, -6.5538],
+            [106.7312, -6.5525],
+            [106.7285, -6.5515],
+            [106.7260, -6.5505],
+            [106.7230, -6.5498],
+            [106.7205, -6.5492],
+            [106.7175, -6.5480],
+            [106.7150, -6.5468],
+            [106.7125, -6.5446],
+            [106.7100, -6.5435],
+            [106.7088, -6.5442],
+            [106.7080, -6.5460],
+            [106.7086, -6.5482],
+            [106.7098, -6.5498],
+            [106.7115, -6.5520],
+            [106.7135, -6.5545],
+            [106.7145, -6.5565],
+            [106.7160, -6.5585],
+            [106.7180, -6.5600],
+            [106.7205, -6.5610],
+            [106.7235, -6.5618],
+            [106.7268, -6.5620]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-danau-sdgs",
+        "name": "Danau SDGs IPB University",
+        "type": "water",
+        "description": "Danau konservasi lingkungan di sisi barat kampus IPB Dramaga."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7135, -6.5548],
+            [106.7145, -6.5548],
+            [106.7148, -6.5555],
+            [106.7142, -6.5560],
+            [106.7132, -6.5555],
+            [106.7135, -6.5548]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-danau-lsi",
+        "name": "Danau LSI (Danau Inspirasi)",
+        "type": "water",
+        "description": "Danau buatan di tengah kampus dekat Perpustakaan LSI."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7248, -6.5570],
+            [106.7256, -6.5570],
+            [106.7257, -6.5575],
+            [106.7252, -6.5578],
+            [106.7247, -6.5575],
+            [106.7248, -6.5570]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-rektorat",
+        "name": "Gedung Andi Hakim Nasoetion (Rektorat)",
+        "type": "building",
+        "category": "admin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7230, -6.5545],
+            [106.7240, -6.5545],
+            [106.7240, -6.5551],
+            [106.7230, -6.5551],
+            [106.7230, -6.5545]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-masjid",
+        "name": "Masjid Al-Hurriyyah",
+        "type": "building",
+        "category": "mosque"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7210, -6.5556],
+            [106.7220, -6.5556],
+            [106.7220, -6.5564],
+            [106.7210, -6.5564],
+            [106.7210, -6.5556]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-unit-satwa-harapan",
+        "name": "Unit Satwa Harapan - FAPET IPB",
+        "type": "building",
+        "category": "faculty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7240, -6.5578],
+            [106.7250, -6.5578],
+            [106.7250, -6.5586],
+            [106.7240, -6.5586],
+            [106.7240, -6.5578]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-gww",
+        "name": "Grha Widya Wisuda (GWW)",
+        "type": "building",
+        "category": "admin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7270, -6.5602],
+            [106.7280, -6.5602],
+            [106.7280, -6.5610],
+            [106.7270, -6.5610],
+            [106.7270, -6.5602]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-lsi",
+        "name": "Perpustakaan Pusat IPB (LSI)",
+        "type": "building",
+        "category": "library"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7252, -6.5568],
+            [106.7258, -6.5568],
+            [106.7258, -6.5573],
+            [106.7252, -6.5573],
+            [106.7252, -6.5568]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-fmipa",
+        "name": "Kompleks Gedung FMIPA",
+        "type": "building",
+        "category": "faculty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7290, -6.5560],
+            [106.7300, -6.5560],
+            [106.7300, -6.5570],
+            [106.7290, -6.5570],
+            [106.7290, -6.5560]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-ccr",
+        "name": "Common Class Room (CCR)",
+        "type": "building",
+        "category": "admin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7282, -6.5552],
+            [106.7288, -6.5552],
+            [106.7288, -6.5558],
+            [106.7282, -6.5558],
+            [106.7282, -6.5552]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-faperta",
+        "name": "Kompleks Gedung Faperta",
+        "type": "building",
+        "category": "faculty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7276, -6.5572],
+            [106.7284, -6.5572],
+            [106.7284, -6.5578],
+            [106.7276, -6.5578],
+            [106.7276, -6.5572]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-fkh",
+        "name": "Kompleks SKHB / FKH & RSHP",
+        "type": "building",
+        "category": "faculty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7195, -6.5562],
+            [106.7205, -6.5562],
+            [106.7205, -6.5570],
+            [106.7195, -6.5570],
+            [106.7195, -6.5562]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-gor",
+        "name": "GOR Gymnasium IPB",
+        "type": "building",
+        "category": "sports"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7260, -6.5537],
+            [106.7270, -6.5537],
+            [106.7270, -6.5544],
+            [106.7260, -6.5544],
+            [106.7260, -6.5537]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-asrama-putra",
+        "name": "Kompleks Asrama Mahasiswa Putra (TPB/PPKU)",
+        "type": "building",
+        "category": "dormitory"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7236, -6.5602],
+            [106.7244, -6.5602],
+            [106.7244, -6.5608],
+            [106.7236, -6.5608],
+            [106.7236, -6.5602]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "denah-asrama-putri",
+        "name": "Kompleks Asrama Mahasiswa Putri (TPB/PPKU)",
+        "type": "building",
+        "category": "dormitory"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.7246, -6.5599],
+            [106.7254, -6.5599],
+            [106.7254, -6.5605],
+            [106.7246, -6.5605],
+            [106.7246, -6.5599]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "categories": [
+    { "id": "faculty", "name": "Fakultas", "icon": "assets/icons/faculty.svg", "color": "#00723F", "visible": true },
+    { "id": "admin", "name": "Administrasi", "icon": "assets/icons/admin.svg", "color": "#1B4F72", "visible": true },
+    { "id": "canteen", "name": "Kantin & Café", "icon": "assets/icons/canteen.svg", "color": "#E67E22", "visible": true },
+    { "id": "mosque", "name": "Tempat Ibadah", "icon": "assets/icons/mosque.svg", "color": "#2ECC71", "visible": true },
+    { "id": "library", "name": "Perpustakaan", "icon": "assets/icons/library.svg", "color": "#8E44AD", "visible": true },
+    { "id": "parking", "name": "Parkir", "icon": "assets/icons/parking.svg", "color": "#3498DB", "visible": true },
+    { "id": "gate", "name": "Gerbang", "icon": "assets/icons/gate.svg", "color": "#E74C3C", "visible": true },
+    { "id": "dormitory", "name": "Asrama", "icon": "assets/icons/dormitory.svg", "color": "#F39C12", "visible": true },
+    { "id": "sports", "name": "Olahraga", "icon": "assets/icons/sports.svg", "color": "#1ABC9C", "visible": true },
+    { "id": "lab", "name": "Laboratorium", "icon": "assets/icons/lab.svg", "color": "#9B59B6", "visible": true },
+    { "id": "atm", "name": "ATM", "icon": "assets/icons/atm.svg", "color": "#34495E", "visible": true },
+    { "id": "custom", "name": "Pin Saya", "icon": "assets/icons/custom.svg", "color": "#E91E63", "visible": true }
+  ]
+}

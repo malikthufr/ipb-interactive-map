@@ -1,0 +1,1189 @@
+{
+  "locations": [
+    {
+      "id": "gerbang-utama",
+      "name": "Pintu Masuk IPB (Gerbang Utama)",
+      "category": "gate",
+      "description": "Pintu masuk utama kampus IPB Dramaga yang menghubungkan langsung ke Jalan Raya Dramaga. Dilengkapi pos keamanan terpadu dan palang otomatis.",
+      "coords": [
+        -6.562,
+        106.7268
+      ],
+      "details": {
+        "alias": "Gate Utama IPB",
+        "address": "Jl. Raya Dramaga, Pintu Masuk Utama IPB",
+        "hours": "24 Jam (Akses kendaraan utama: 06.00 - 22.00 WIB)",
+        "facilities": [
+          "Pos Satpam",
+          "Palang Otomatis",
+          "CCTV 24 Jam",
+          "Jalur Bus Kampus"
+        ]
+      }
+    },
+    {
+      "id": "rektorat",
+      "name": "Gedung Andi Hakim Nasoetion (Rektorat)",
+      "category": "admin",
+      "description": "Gedung pusat pimpinan dan administrasi IPB University. Menampung kantor Rektor, Wakil Rektor, serta pusat layanan mahasiswa.",
+      "coords": [
+        -6.5548,
+        106.7235
+      ],
+      "details": {
+        "alias": "Gedung AHN / Rektorat",
+        "address": "Jl. Lingkar Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.00 WIB",
+        "facilities": [
+          "Kantor Rektorat",
+          "Integrated Service Center",
+          "ATM Center",
+          "Ruang Sidang",
+          "WiFi IPB"
+        ]
+      }
+    },
+    {
+      "id": "gww",
+      "name": "Grha Widya Wisuda (GWW)",
+      "category": "admin",
+      "description": "Auditorium serbaguna ikonik dan terbesar di kampus IPB dengan daya tampung hingga 5.000 orang, digunakan untuk wisuda dan seminar akbar.",
+      "coords": [
+        -6.5606,
+        106.7275
+      ],
+      "details": {
+        "alias": "Gedung Wisuda GWW",
+        "address": "Jl. Lingkar Akademik Kampus IPB",
+        "hours": "Sesuai Jadwal Kegiatan / Acara",
+        "facilities": [
+          "Auditorium Utama",
+          "Lobby Pameran",
+          "Area Parkir Luas",
+          "Toilet & Musholla"
+        ]
+      }
+    },
+    {
+      "id": "ccr",
+      "name": "Common Class Room (CCR)",
+      "category": "admin",
+      "description": "Gedung kuliah umum bersama bagi mahasiswa tingkat pertama (PPKU / TPB) yang dilengkapi puluhan ruang kelas modern berkapasitas besar.",
+      "coords": [
+        -6.5555,
+        106.7285
+      ],
+      "details": {
+        "alias": "Gedung Kuliah CCR",
+        "address": "Jl. Meranti, Kampus IPB Dramaga",
+        "hours": "Senin - Sabtu: 07.00 - 18.00 WIB",
+        "facilities": [
+          "Ruang Kuliah AC",
+          "Proyektor",
+          "Musholla CCR",
+          "Kantin & Fotokopi"
+        ]
+      }
+    },
+    {
+      "id": "teaching-lab",
+      "name": "Teaching Laboratory (TL)",
+      "category": "lab",
+      "description": "Gedung laboratorium terpadu bertingkat untuk praktikum sains dasar (Fisika, Kimia, Biologi) mahasiswa tingkat persiapan bersama.",
+      "coords": [
+        -6.5558,
+        106.729
+      ],
+      "details": {
+        "alias": "Lab TL PPKU",
+        "address": "Jl. Meranti (Sebelah CCR)",
+        "hours": "Senin - Jumat: 07.30 - 17.30 WIB",
+        "facilities": [
+          "Lab Kimia Dasar",
+          "Lab Fisika",
+          "Lab Biologi",
+          "Ruang Preparasi"
+        ]
+      }
+    },
+    {
+      "id": "isc",
+      "name": "Integrated Service Centre (ISC)",
+      "category": "admin",
+      "description": "Pusat Pelayanan Terpadu satu pintu untuk seluruh kebutuhan administrasi akademik, kemahasiswaan, dan legalisir ijazah.",
+      "coords": [
+        -6.5545,
+        106.724
+      ],
+      "details": {
+        "alias": "Layanan Satu Pintu ISC",
+        "address": "Gedung Rektorat Sayap Kanan",
+        "hours": "Senin - Jumat: 08.00 - 15.30 WIB",
+        "facilities": [
+          "Antrean Digital",
+          "Helpdesk Akademik",
+          "Layanan Kemahasiswaan",
+          "Ruang Tunggu Ber-AC"
+        ]
+      }
+    },
+    {
+      "id": "fmipa",
+      "name": "Fakultas Matematika dan IPA (FMIPA)",
+      "category": "faculty",
+      "description": "Kompleks FMIPA IPB menaungi departemen Matematika, Statistika, Ilmu Komputer, Fisika, Kimia, Biologi, Biokimia, dan Geofisika & Meteorologi.",
+      "coords": [
+        -6.5565,
+        106.7295
+      ],
+      "details": {
+        "alias": "FMIPA IPB",
+        "address": "Jl. Meranti, Wing FMIPA",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Lab Komputer",
+          "Perpustakaan FMIPA",
+          "Kantin Golden Corner",
+          "Ruang Seminar"
+        ]
+      }
+    },
+    {
+      "id": "fateta",
+      "name": "Fakultas Teknologi Pertanian (Fateta)",
+      "category": "faculty",
+      "description": "Fakultas pelopor di bidang teknik mesin biosistem, teknologi pangan, teknologi industri pertanian, dan teknik sipil & lingkungan.",
+      "coords": [
+        -6.5568,
+        106.726
+      ],
+      "details": {
+        "alias": "Fateta IPB",
+        "address": "Jl. Kamper, Seberang Perpustakaan LSI",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Pilot Plant Pengolahan",
+          "Kantin Sapta",
+          "Lab Sensorika",
+          "Perpustakaan Fateta"
+        ]
+      }
+    },
+    {
+      "id": "fkh",
+      "name": "Sekolah Kedokteran Hewan & Biomedis (SKHB / FKH)",
+      "category": "faculty",
+      "description": "Fakultas Kedokteran Hewan tertua di Indonesia dengan fasilitas Rumah Sakit Hewan Pendidikan terbesar di Asia Tenggara.",
+      "coords": [
+        -6.5565,
+        106.72
+      ],
+      "details": {
+        "alias": "SKHB / FKH IPB",
+        "address": "Jl. Agatis, Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Rumah Sakit Hewan",
+          "Lab Patologi",
+          "Museum Anatomi",
+          "Ambulans Hewan"
+        ]
+      }
+    },
+    {
+      "id": "fem",
+      "name": "Fakultas Ekonomi dan Manajemen (FEM)",
+      "category": "faculty",
+      "description": "Pusat pendidikan ekonomi, manajemen, agribisnis, ilmu ekonomi syariah, dan ekonomi sumberdaya lingkungan.",
+      "coords": [
+        -6.5592,
+        106.726
+      ],
+      "details": {
+        "alias": "FEM IPB",
+        "address": "Jl. Kamper, Lingkar Akademik",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Galeri Investasi Bursa",
+          "Lab Komputasi Ekonomi",
+          "Auditorium FEM",
+          "Kantin"
+        ]
+      }
+    },
+    {
+      "id": "fapet",
+      "name": "Fakultas Peternakan (Fapet)",
+      "category": "faculty",
+      "description": "Fakultas terkemuka dalam ilmu produksi peternakan, nutrisi dan teknologi pakan, serta teknologi hasil ternak.",
+      "coords": [
+        -6.558,
+        106.7242
+      ],
+      "details": {
+        "alias": "Fapet IPB",
+        "address": "Jl. Agatis, Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Kandang Percobaan",
+          "Kantin Plasma",
+          "Lab Nutrisi Ternak",
+          "Klinik Ternak"
+        ]
+      }
+    },
+    {
+      "id": "faperta",
+      "name": "Fakultas Pertanian (Faperta)",
+      "category": "faculty",
+      "description": "Fakultas tertua di IPB dengan fokus agronomi, hortikultura, arsitektur lanskap, ilmu tanah, dan proteksi tanaman.",
+      "coords": [
+        -6.5575,
+        106.728
+      ],
+      "details": {
+        "alias": "Faperta IPB",
+        "address": "Jl. Meranti Gedung A-B-C",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Rumah Kaca (Greenhouse)",
+          "Kantin Stevia",
+          "Kebun Percobaan",
+          "Studio Lanskap"
+        ]
+      }
+    },
+    {
+      "id": "fpik",
+      "name": "Fakultas Perikanan dan Ilmu Kelautan (FPIK)",
+      "category": "faculty",
+      "description": "Pusat riset kelautan dan perikanan tropis unggulan di Indonesia meliputi budidaya perairan, manajemen sumberdaya, dan oseanografi.",
+      "coords": [
+        -6.5585,
+        106.727
+      ],
+      "details": {
+        "alias": "FPIK IPB",
+        "address": "Jl. Agatis, Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Hatchery Ikan",
+          "Lab Oseanografi",
+          "Kolam Percobaan",
+          "Diving Station"
+        ]
+      }
+    },
+    {
+      "id": "fk",
+      "name": "Fakultas Kedokteran (FK)",
+      "category": "faculty",
+      "description": "Fakultas Kedokteran IPB yang berfokus pada kedokteran agromaritim dan penanganan penyakit zoonosis lintas spesies.",
+      "coords": [
+        -6.5555,
+        106.7225
+      ],
+      "details": {
+        "alias": "FK IPB",
+        "address": "Jl. Lingkar Akademik (Dekat Masjid Al-Hurriyyah)",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Lab Biomedik",
+          "Ruang OSCE & CBT",
+          "Perpustakaan Medis",
+          "Lab Anatomi"
+        ]
+      }
+    },
+    {
+      "id": "fahutan",
+      "name": "Fakultas Kehutanan dan Lingkungan (Fahutan)",
+      "category": "faculty",
+      "description": "Fakultas kehutanan terkemuka yang menaungi departemen manajemen hutan, hasil hutan, konservasi sumberdaya hutan, dan silvikultur.",
+      "coords": [
+        -6.555,
+        106.727
+      ],
+      "details": {
+        "alias": "Fahutan IPB",
+        "address": "Jl. Ulin, Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Arboretum Kehutanan",
+          "Kantin Rimbawan",
+          "Lab Silvikultur",
+          "Herbarium"
+        ]
+      }
+    },
+    {
+      "id": "fema",
+      "name": "Fakultas Ekologi Manusia (Fema / FISEMA)",
+      "category": "faculty",
+      "description": "Satu-satunya fakultas ekologi manusia di Indonesia, membawahi Ilmu Gizi, Ilmu Keluarga & Konsumen, dan Komunikasi & Pengembangan Masyarakat.",
+      "coords": [
+        -6.5595,
+        106.7272
+      ],
+      "details": {
+        "alias": "Fema / FISEMA IPB",
+        "address": "Jl. Lingkar Akademik, Kampus IPB Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Lab Uji Sensoris Gizi",
+          "Studio Komunikasi",
+          "Auditorium Fema",
+          "Klinik Konseling"
+        ]
+      }
+    },
+    {
+      "id": "sb-ipb",
+      "name": "Sekolah Bisnis IPB (SB-IPB)",
+      "category": "faculty",
+      "description": "Sekolah bisnis terakreditasi internasional yang menyelenggarakan program sarjana dan pascasarjana manajemen bisnis.",
+      "coords": [
+        -6.554,
+        106.7248
+      ],
+      "details": {
+        "alias": "Sekolah Bisnis IPB",
+        "address": "Jl. Raya Pajajaran / Gedung Dramaga",
+        "hours": "Senin - Sabtu: 08.00 - 17.00 WIB",
+        "facilities": [
+          "Business Lounge",
+          "Inkubator Bisnis",
+          "Ruang Diskusi Kasus",
+          "Executive Classroom"
+        ]
+      }
+    },
+    {
+      "id": "pascasarjana",
+      "name": "Sekolah Pascasarjana IPB",
+      "category": "faculty",
+      "description": "Gedung pengelola program magister (S2) dan doktoral (S3) multi-disiplin IPB University.",
+      "coords": [
+        -6.5542,
+        106.7242
+      ],
+      "details": {
+        "alias": "SPs IPB",
+        "address": "Gedung SPs, Sayap Rektorat",
+        "hours": "Senin - Jumat: 08.00 - 16.00 WIB",
+        "facilities": [
+          "Ruang Ujian Sidang",
+          "Layanan Tesis/Disertasi",
+          "Ruang Riset Pasca"
+        ]
+      }
+    },
+    {
+      "id": "sekolah-vokasi",
+      "name": "Sekolah Vokasi IPB",
+      "category": "faculty",
+      "description": "Pusat pendidikan terapan dan kejuruan sarjana terapan (D4) IPB University.",
+      "coords": [
+        -6.5538,
+        106.7245
+      ],
+      "details": {
+        "alias": "SV IPB",
+        "address": "Gedung Layanan Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Workshop Praktek",
+          "Studio Desain",
+          "Lab Kejuruan"
+        ]
+      }
+    },
+    {
+      "id": "perpustakaan-pusat",
+      "name": "Perpustakaan Pusat IPB (LSI)",
+      "category": "library",
+      "description": "Gedung Perpustakaan Pusat Literasi Sains dan Informasi (LSI) dengan ribuan koleksi buku fisik, jurnal internasional, dan ruang diskusi modern.",
+      "coords": [
+        -6.557,
+        106.7255
+      ],
+      "details": {
+        "alias": "Perpustakaan LSI",
+        "address": "Jl. Kamper, Pusat Kampus Dramaga",
+        "hours": "Senin - Jumat: 08.00 - 18.00 WIB, Sabtu: 09.00 - 14.00 WIB",
+        "facilities": [
+          "Ruang Belajar Mandiri",
+          "Discussion Pods",
+          "WiFi Cepat",
+          "Akses Jurnal Ilmiah",
+          "Kafe Baca"
+        ]
+      }
+    },
+    {
+      "id": "perpus-fmipa",
+      "name": "Perpustakaan FMIPA",
+      "category": "library",
+      "description": "Perpustakaan spesifik cabang sains dan komputasi di lingkungan fakultas MIPA.",
+      "coords": [
+        -6.5566,
+        106.7298
+      ],
+      "details": {
+        "alias": "Perpus FMIPA",
+        "address": "Lantai 2 Wing FMIPA",
+        "hours": "Senin - Jumat: 08.30 - 16.00 WIB",
+        "facilities": [
+          "Koleksi Skripsi Sains",
+          "Ruang Baca Nyaman",
+          "Komputer Katalog"
+        ]
+      }
+    },
+    {
+      "id": "masjid-alhurriyyah",
+      "name": "Masjid Al-Hurriyyah",
+      "category": "mosque",
+      "description": "Masjid kampus 3 lantai yang megah dan merupakan salah satu masjid kampus terbesar di Indonesia dengan kapasitas hingga 5.000 jamaah.",
+      "coords": [
+        -6.556,
+        106.7215
+      ],
+      "details": {
+        "alias": "Masjid Al-Hurriyyah",
+        "address": "Jl. Lingkar Kampus IPB",
+        "hours": "Buka Setiap Hari 24 Jam",
+        "facilities": [
+          "Aula Pertemuan Bawah",
+          "Perpustakaan Islam",
+          "Tempat Wudhu Luas",
+          "Taman Masjid",
+          "Kantin Syariah"
+        ]
+      }
+    },
+    {
+      "id": "kantin-sapta",
+      "name": "Kantin Sapta Fateta",
+      "category": "canteen",
+      "description": "Salah satu kantin paling legendaris dan ramai di IPB, terkenal dengan soto mie Bogor, ayam geprek, aneka jus, dan hidangan nusantara.",
+      "coords": [
+        -6.5569,
+        106.7262
+      ],
+      "details": {
+        "alias": "Kantin Sapta",
+        "address": "Gedung Fateta Lantai 1",
+        "hours": "Senin - Jumat: 07.30 - 17.00 WIB",
+        "facilities": [
+          "20+ Kios Makanan",
+          "Meja Bersama Luas",
+          "Pembayaran QRIS",
+          "Wastafel Bersih"
+        ]
+      }
+    },
+    {
+      "id": "golden-corner",
+      "name": "Golden Corner FMIPA",
+      "category": "canteen",
+      "description": "Pusat kuliner favorit mahasiswa FMIPA yang berlokasi di area lobby semi-outdoor FMIPA dengan beragam camilan, kopi, dan makanan berat.",
+      "coords": [
+        -6.5564,
+        106.7293
+      ],
+      "details": {
+        "alias": "Kantin Golden FMIPA",
+        "address": "Lobby FMIPA IPB",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Kopi & Toast",
+          "Makanan Siap Saji",
+          "Colokan Listrik"
+        ]
+      }
+    },
+    {
+      "id": "blue-corner",
+      "name": "Blue Corner",
+      "category": "canteen",
+      "description": "Kantin di area dekat GOR dan Masjid Al-Hurriyyah, tempat santai favorit mahasiswa setelah berolahraga.",
+      "coords": [
+        -6.5558,
+        106.7222
+      ],
+      "details": {
+        "alias": "Blue Corner",
+        "address": "Samping GOR / Dekat Masjid",
+        "hours": "Senin - Sabtu: 08.00 - 17.00 WIB",
+        "facilities": [
+          "Aneka Minuman Dingin",
+          "Makanan Ringan",
+          "Area Outdoor Rindang"
+        ]
+      }
+    },
+    {
+      "id": "amarilis",
+      "name": "Kantin Amarilis",
+      "category": "canteen",
+      "description": "Kantin nyaman dengan menu prasmanan rumahan ramah kantong mahasiswa di zona tengah kampus.",
+      "coords": [
+        -6.5562,
+        106.7248
+      ],
+      "details": {
+        "alias": "Kantin Amarilis",
+        "address": "Jl. Lingkar Akademik",
+        "hours": "Senin - Jumat: 08.00 - 16.00 WIB",
+        "facilities": [
+          "Prasmanan Nasi Rames",
+          "Aneka Gorengan",
+          "Es Teh Segar"
+        ]
+      }
+    },
+    {
+      "id": "stevia",
+      "name": "Kantin Stevia Faperta",
+      "category": "canteen",
+      "description": "Kantin utama Fakultas Pertanian bernuansa hijau asri di bawah rindangnya pepohonan kampus.",
+      "coords": [
+        -6.5576,
+        106.7283
+      ],
+      "details": {
+        "alias": "Kantin Stevia",
+        "address": "Kompleks Faperta Gedung A",
+        "hours": "Senin - Jumat: 07.30 - 16.30 WIB",
+        "facilities": [
+          "Ayam Bakar & Penyet",
+          "Juice Bar",
+          "Suasana Kebun"
+        ]
+      }
+    },
+    {
+      "id": "kantin-ungu",
+      "name": "Kantin Ungu",
+      "category": "canteen",
+      "description": "Kantin populer di dekat perbatasan Faperta dan Fema dengan sajian mi instan kekinian dan makanan hemat.",
+      "coords": [
+        -6.5578,
+        106.7278
+      ],
+      "details": {
+        "alias": "Kantin Ungu",
+        "address": "Jl. Meranti Belakang",
+        "hours": "Senin - Jumat: 08.00 - 17.00 WIB",
+        "facilities": [
+          "Indomie Warmindo",
+          "Aneka Gorengan Hangat"
+        ]
+      }
+    },
+    {
+      "id": "kanpat",
+      "name": "Kantin Empat (Kanpat)",
+      "category": "canteen",
+      "description": "Kantin sentral mahasiswa yang menghubungkan rute antara perpustakaan, asrama, dan fakultas sains.",
+      "coords": [
+        -6.5582,
+        106.7265
+      ],
+      "details": {
+        "alias": "Kanpat IPB",
+        "address": "Jl. Meranti Tengah",
+        "hours": "Senin - Jumat: 07.30 - 17.00 WIB",
+        "facilities": [
+          "Aneka Masakan Sunda",
+          "Nasi Padang Murah",
+          "Es Kelapa Muda"
+        ]
+      }
+    },
+    {
+      "id": "rimbawan",
+      "name": "Kantin Rimbawan",
+      "category": "canteen",
+      "description": "Kantin khas Fakultas Kehutanan yang asri dikelilingi pepohonan rimbun arboretum IPB.",
+      "coords": [
+        -6.5552,
+        106.7273
+      ],
+      "details": {
+        "alias": "Kantin Rimbawan Fahutan",
+        "address": "Jl. Ulin, Fahutan IPB",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Menu Tradisional",
+          "Kopi Hitam Rimbawan",
+          "Suasana Teduh"
+        ]
+      }
+    },
+    {
+      "id": "plasma",
+      "name": "Kantin Plasma",
+      "category": "canteen",
+      "description": "Kantin yang berlokasi di Fakultas Peternakan, menyajikan aneka olahan daging dan olahan susu segar produksi peternakan IPB.",
+      "coords": [
+        -6.5583,
+        106.724
+      ],
+      "details": {
+        "alias": "Kantin Plasma Fapet",
+        "address": "Gedung Fapet IPB",
+        "hours": "Senin - Jumat: 08.00 - 16.00 WIB",
+        "facilities": [
+          "Susu Segar IPB",
+          "Steak Hemat",
+          "Nasi Telur Mayo"
+        ]
+      }
+    },
+    {
+      "id": "makjan",
+      "name": "Kantin Makjan",
+      "category": "canteen",
+      "description": "Pusat jajanan dan makan siang yang berlokasi di dekat GWW dan area parkir timur kampus.",
+      "coords": [
+        -6.5608,
+        106.727
+      ],
+      "details": {
+        "alias": "Kantin Makjan",
+        "address": "Area Timur GWW",
+        "hours": "Senin - Sabtu: 08.00 - 17.00 WIB",
+        "facilities": [
+          "Pilihan Makanan Luas",
+          "Lesehan",
+          "Harga Mahasiswa"
+        ]
+      }
+    },
+    {
+      "id": "botani-kopi",
+      "name": "Botani Kopi Nusantara",
+      "category": "canteen",
+      "description": "Kafe modern resmi IPB University yang menyajikan kopi spesialti hasil riset varietas kopi unggul nusantara.",
+      "coords": [
+        -6.5546,
+        106.7238
+      ],
+      "details": {
+        "alias": "Botani Kopi",
+        "address": "Dekat Gedung Rektorat AHN",
+        "hours": "Senin - Jumat: 08.00 - 18.00 WIB",
+        "facilities": [
+          "Specialty Coffee",
+          "Ruang Meeting AC",
+          "WiFi Super Cepat",
+          "Pastry & Snack"
+        ]
+      }
+    },
+    {
+      "id": "kopicentrum",
+      "name": "Kopicentrum Botani Cafe",
+      "category": "canteen",
+      "description": "Spot nongkrong asri favorit mahasiswa dan dosen di dekat zona agro-bioteknologi.",
+      "coords": [
+        -6.5573,
+        106.7278
+      ],
+      "details": {
+        "alias": "Kopicentrum IPB",
+        "address": "Jl. Meranti Depan Faperta",
+        "hours": "Senin - Jumat: 09.00 - 17.30 WIB",
+        "facilities": [
+          "Outdoor Seating",
+          "Manual Brew",
+          "Suasana Tenang"
+        ]
+      }
+    },
+    {
+      "id": "botani-bakery",
+      "name": "Botani Bakery & Agrimart",
+      "category": "canteen",
+      "description": "Outlet resmi bakery dan minimarket IPB yang menjual roti sehat, buah-buahan segar hasil kebun riset IPB, serta produk inovasi dosen.",
+      "coords": [
+        -6.5549,
+        106.7245
+      ],
+      "details": {
+        "alias": "Botani Mart & Bakery",
+        "address": "Jl. Lingkar Rektorat",
+        "hours": "Setiap Hari: 07.30 - 19.00 WIB",
+        "facilities": [
+          "Roti Fresh Daily",
+          "Buah Tropis Segar",
+          "Produk Inovasi IPB",
+          "Minimarket"
+        ]
+      }
+    },
+    {
+      "id": "gor",
+      "name": "GOR Gymnasium IPB",
+      "category": "sports",
+      "description": "Gedung Olahraga indoor serbaguna untuk basket, futsal, bulu tangkis, dan acara inaugurasi mahasiswa.",
+      "coords": [
+        -6.554,
+        106.7265
+      ],
+      "details": {
+        "alias": "Gymnasium IPB",
+        "address": "Jl. Lingkar Kampus Utara",
+        "hours": "Setiap Hari: 06.00 - 21.00 WIB",
+        "facilities": [
+          "Lapangan Indoor",
+          "Tribun Penonton",
+          "Kamar Ganti & Shower"
+        ]
+      }
+    },
+    {
+      "id": "lap-bola",
+      "name": "Lapangan Sepak Bola & Atletik",
+      "category": "sports",
+      "description": "Lapangan rumput standar untuk sepak bola dengan lintasan lari atletik di sekelilingnya.",
+      "coords": [
+        -6.5535,
+        106.7272
+      ],
+      "details": {
+        "alias": "Stadion Lapangan Bola IPB",
+        "address": "Samping Gymnasium IPB",
+        "hours": "Setiap Hari: 06.00 - 18.00 WIB",
+        "facilities": [
+          "Lapangan Sepak Bola",
+          "Lintasan Lari",
+          "Penerangan Malam"
+        ]
+      }
+    },
+    {
+      "id": "kolam-renang",
+      "name": "Kolam Renang IPB",
+      "category": "sports",
+      "description": "Fasilitas kolam renang terbuka untuk olahraga air mahasiswa, latihan UKM renang, dan kelas olahraga.",
+      "coords": [
+        -6.5532,
+        106.728
+      ],
+      "details": {
+        "alias": "Kolam Renang Dramaga",
+        "address": "Kompleks Olahraga IPB",
+        "hours": "Selasa - Minggu: 07.00 - 17.00 WIB",
+        "facilities": [
+          "Kolam Renang Standar",
+          "Loker & Ruang Bilas",
+          "Kantin Olahraga"
+        ]
+      }
+    },
+    {
+      "id": "asrama-putra",
+      "name": "Asrama Mahasiswa Putra (TPB/PPKU)",
+      "category": "dormitory",
+      "description": "Kompleks asrama tempat tinggal wajib mahasiswa baru putra selama menempuh tahun pertama pendidikan di IPB.",
+      "coords": [
+        -6.5605,
+        106.724
+      ],
+      "details": {
+        "alias": "Asrama TPB Putra",
+        "address": "Jl. Lingkar Kampus Barat",
+        "hours": "Akses Gerbang Asrama: 05.00 - 21.00 WIB",
+        "facilities": [
+          "Kamar 3-4 Orang",
+          "Kantin Asrama",
+          "Lapangan Olahraga",
+          "Musholla Asrama",
+          "Laundry"
+        ]
+      }
+    },
+    {
+      "id": "asrama-putri",
+      "name": "Asrama Mahasiswa Putri (TPB/PPKU)",
+      "category": "dormitory",
+      "description": "Kompleks asrama tempat tinggal khusus mahasiswa baru putri dengan pengamanan 24 jam dan lingkungan yang asri.",
+      "coords": [
+        -6.5602,
+        106.725
+      ],
+      "details": {
+        "alias": "Asrama TPB Putri",
+        "address": "Jl. Meranti / Lingkar Barat",
+        "hours": "Akses Gerbang Asrama: 05.00 - 21.00 WIB",
+        "facilities": [
+          "Keamanan Ketat 24 Jam",
+          "Kantin Asrama",
+          "Minimarket Asrama",
+          "Ruang Bersama"
+        ]
+      }
+    },
+    {
+      "id": "parkir-rektorat",
+      "name": "Area Parkir Rektorat",
+      "category": "parking",
+      "description": "Kantong parkir mobil dan motor utama untuk pengunjung dan staf di lingkungan rektorat.",
+      "coords": [
+        -6.5545,
+        106.723
+      ],
+      "details": {
+        "alias": "Parkir AHN",
+        "address": "Sayap Kiri Rektorat AHN",
+        "hours": "06.00 - 19.00 WIB",
+        "facilities": [
+          "Parkir Mobil & Motor",
+          "Kanopi Peneduh",
+          "Petugas Parkir"
+        ]
+      }
+    },
+    {
+      "id": "parkir-ccr",
+      "name": "Area Parkir CCR & TL",
+      "category": "parking",
+      "description": "Area parkir sepeda motor yang sangat luas khusus mahasiswa yang mengikuti perkuliahan di gedung kuliah umum CCR.",
+      "coords": [
+        -6.5553,
+        106.7288
+      ],
+      "details": {
+        "alias": "Parkir CCR",
+        "address": "Samping Gedung CCR",
+        "hours": "06.30 - 18.30 WIB",
+        "facilities": [
+          "Parkir Motor Ratusan Unit",
+          "Pengawasan Satpam"
+        ]
+      }
+    },
+    {
+      "id": "parkir-fmipa",
+      "name": "Area Parkir FMIPA",
+      "category": "parking",
+      "description": "Fasilitas parkir kendaraan bermotor untuk dosen, mahasiswa, dan staf FMIPA.",
+      "coords": [
+        -6.5562,
+        106.73
+      ],
+      "details": {
+        "alias": "Parkir FMIPA",
+        "address": "Wing FMIPA Timur",
+        "hours": "07.00 - 18.00 WIB",
+        "facilities": [
+          "Parkir Mobil & Motor",
+          "Akses Langsung ke Gedung"
+        ]
+      }
+    },
+    {
+      "id": "parkir-masjid",
+      "name": "Area Parkir Masjid Al-Hurriyyah",
+      "category": "parking",
+      "description": "Lahan parkir luas untuk jamaah sholat Jumat dan kegiatan keagamaan kampus.",
+      "coords": [
+        -6.5563,
+        106.7212
+      ],
+      "details": {
+        "alias": "Parkir Masjid",
+        "address": "Halaman Depan Masjid Al-Hurriyyah",
+        "hours": "24 Jam",
+        "facilities": [
+          "Parkir Bus",
+          "Parkir Mobil & Motor",
+          "Rindang Pepohonan"
+        ]
+      }
+    },
+    {
+      "id": "parkir-gww",
+      "name": "Area Parkir GWW",
+      "category": "parking",
+      "description": "Kantong parkir terbesar di kampus IPB yang digunakan saat acara wisuda, konser, dan seminar besar.",
+      "coords": [
+        -6.561,
+        106.728
+      ],
+      "details": {
+        "alias": "Parkir Akbar GWW",
+        "address": "Sisi Selatan & Timur GWW",
+        "hours": "Sesuai Jadwal Acara",
+        "facilities": [
+          "Kapasitas Ribuan Kendaraan",
+          "Jalur Masuk/Keluar Ganda"
+        ]
+      }
+    },
+    {
+      "id": "atm-bni",
+      "name": "ATM Center BNI Rektorat",
+      "category": "atm",
+      "description": "Mesin Anjungan Tunai Mandiri BNI dengan fitur tarik dan setor tunai (CRM) lengkap.",
+      "coords": [
+        -6.5547,
+        106.7232
+      ],
+      "details": {
+        "alias": "ATM BNI Dramaga",
+        "address": "Lobby Luar Rektorat AHN",
+        "hours": "24 Jam",
+        "facilities": [
+          "Tarik Tunai",
+          "Setor Tunai (CRM)",
+          "AC & CCTV"
+        ]
+      }
+    },
+    {
+      "id": "atm-bri",
+      "name": "ATM BRI Perpustakaan LSI",
+      "category": "atm",
+      "description": "ATM BRI yang berada strategis di dekat pintu masuk Perpustakaan Pusat LSI.",
+      "coords": [
+        -6.5569,
+        106.7253
+      ],
+      "details": {
+        "alias": "ATM BRI LSI",
+        "address": "Selasar Depan LSI",
+        "hours": "24 Jam",
+        "facilities": [
+          "Tarik Tunai",
+          "Transfer",
+          "CCTV"
+        ]
+      }
+    },
+    {
+      "id": "atm-mandiri",
+      "name": "ATM Mandiri FMIPA",
+      "category": "atm",
+      "description": "Galeri ATM Mandiri untuk kemudahan transaksi perbankan mahasiswa di wilayah timur kampus.",
+      "coords": [
+        -6.5563,
+        106.7292
+      ],
+      "details": {
+        "alias": "ATM Mandiri FMIPA",
+        "address": "Samping Golden Corner FMIPA",
+        "hours": "24 Jam",
+        "facilities": [
+          "Tarik & Setor Tunai",
+          "Bebas Biaya Sesama Mandiri"
+        ]
+      }
+    },
+    {
+      "id": "lab-terpadu",
+      "name": "Laboratorium Terpadu IPB",
+      "category": "lab",
+      "description": "Pusat instrumentasi analisis canggih seperti SEM, GC-MS, HPLC, dan PCR untuk riset mahasiswa dan dosen lintas fakultas.",
+      "coords": [
+        -6.5567,
+        106.7268
+      ],
+      "details": {
+        "alias": "Integrated Lab IPB",
+        "address": "Jl. Kamper Tengah",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Instrumen Analitik Mutakhir",
+          "Ruang Akreditasi ISO",
+          "Ruang Preparasi Steril"
+        ]
+      }
+    },
+    {
+      "id": "lab-lapangan",
+      "name": "Kebun Percobaan & Lab Lapangan Faperta",
+      "category": "lab",
+      "description": "Lahan budidaya percobaan tanaman pangan, hortikultura, dan perkebunan untuk penelitian skripsi dan tesis.",
+      "coords": [
+        -6.5588,
+        106.7285
+      ],
+      "details": {
+        "alias": "Kebun Percobaan Cikarawang",
+        "address": "Belakang Faperta",
+        "hours": "Senin - Sabtu: 07.00 - 17.00 WIB",
+        "facilities": [
+          "Lahan Percobaan Terbuka",
+          "Irigasi Tetes",
+          "Gudang Benih"
+        ]
+      }
+    },
+    {
+      "id": "lab-komputer",
+      "name": "Laboratorium Komputer Ilkom FMIPA",
+      "category": "lab",
+      "description": "Laboratorium komputasi tingkat lanjut untuk kecerdasan buatan (AI), rekayasa perangkat lunak, dan keamanan siber.",
+      "coords": [
+        -6.5565,
+        106.7296
+      ],
+      "details": {
+        "alias": "Lab Komputer Ilkom",
+        "address": "Wing FMIPA Lantai 3",
+        "hours": "Senin - Jumat: 08.00 - 17.00 WIB",
+        "facilities": [
+          "PC High-End GPU",
+          "Koneksi LAN Gigabit",
+          "Server Riset AI"
+        ]
+      }
+    },
+    {
+      "id": "lab-fkh",
+      "name": "Rumah Sakit Hewan Pendidikan (RSHP SKHB IPB)",
+      "category": "lab",
+      "description": "Rumah sakit hewan terlengkap dengan ruang bedah modern, rawat inap satwa, laboratorium diagnostik klinis, dan radiologi.",
+      "coords": [
+        -6.5567,
+        106.7196
+      ],
+      "details": {
+        "alias": "RSHP IPB",
+        "address": "Jl. Agatis Kampus SKHB",
+        "hours": "Senin - Minggu: 08.00 - 20.00 WIB (Unit Gawat Darurat 24 Jam)",
+        "facilities": [
+          "UGD Hewan",
+          "Ruang Operasi Bedah",
+          "Radiologi X-Ray & USG",
+          "Farmasi Hewan"
+        ]
+      }
+    },
+    {
+      "id": "danau-lsi",
+      "name": "Danau LSI (Danau Inspirasi)",
+      "category": "sports",
+      "description": "Danau buatan yang tenang di tengah kampus IPB dengan jogging track yang asri dan tempat favorit mahasiswa bersantai di sore hari.",
+      "coords": [
+        -6.5572,
+        106.7252
+      ],
+      "details": {
+        "alias": "Danau Rektorat / Danau LSI",
+        "address": "Sebelah Perpustakaan LSI",
+        "hours": "Buka Setiap Hari (06.00 - 18.00 WIB)",
+        "facilities": [
+          "Jogging Track",
+          "Bale/Gazebo Santai",
+          "Spot Foto Kampus",
+          "Pohon Rindang"
+        ]
+      }
+    },
+    {
+      "id": "pintu-belakang",
+      "name": "Pintu Belakang IPB",
+      "category": "gate",
+      "description": "Gerbang akses barat laut kampus IPB yang menghubungkan ke jalur Situ Gede, Cifor, dan Babakan barat.",
+      "coords": [
+        -6.5495,
+        106.7135
+      ],
+      "details": {
+        "alias": "Pintu 2 Belakang IPB",
+        "address": "Jalur Akses Situ Gede / Cifor, Dramaga",
+        "hours": "06.00 - 21.00 WIB",
+        "facilities": [
+          "Pos Keamanan",
+          "Akses Motor & Pejalan Kaki"
+        ]
+      }
+    },
+    {
+      "id": "unit-satwa-harapan",
+      "name": "Unit Satwa Harapan - FAPET IPB",
+      "category": "faculty",
+      "description": "Fasilitas riset dan peternakan satwa harapan (lebah, kelinci, burung walet, dll.) di bawah naungan Fakultas Peternakan IPB.",
+      "coords": [
+        -6.5582,
+        106.7245
+      ],
+      "details": {
+        "alias": "Lab Satwa Harapan Fapet",
+        "address": "Kompleks Farm Fapet, Jl. Agatis",
+        "hours": "Senin - Jumat: 08.00 - 16.30 WIB",
+        "facilities": [
+          "Kandang Satwa Harapan",
+          "Lab Non-Ruminansia",
+          "Pusat Edukasi Peternakan"
+        ]
+      }
+    },
+    {
+      "id": "forest-park",
+      "name": "Forest Park IPB Campus (Taman Hutan Kampus)",
+      "category": "sports",
+      "description": "Kawasan konservasi alam dan hutan pendidikan IPB dengan penangkaran rusa dan pepohonan asri di tepi Sungai Ciapus.",
+      "coords": [
+        -6.548,
+        106.7125
+      ],
+      "details": {
+        "alias": "Taman Hutan / Hutan Kampus IPB",
+        "address": "Jl. Lengkeng, Kawasan Hutan Barat IPB",
+        "hours": "06.00 - 17.30 WIB",
+        "facilities": [
+          "Penangkaran Rusa",
+          "Jalur Trekking",
+          "Spot Edukasi Konservasi"
+        ]
+      }
+    },
+    {
+      "id": "danau-sdgs",
+      "name": "Danau SDGs IPB University",
+      "category": "sports",
+      "description": "Danau retensi dan konservasi ekosistem air di bagian barat kampus IPB yang mendukung agenda pembangunan berkelanjutan (SDGs).",
+      "coords": [
+        -6.5552,
+        106.714
+      ],
+      "details": {
+        "alias": "SDGs Lake IPB",
+        "address": "Sisi Barat Kampus IPB Dramaga",
+        "hours": "06.00 - 18.00 WIB",
+        "facilities": [
+          "Danau Konservasi",
+          "Jalur Pejalan Kaki",
+          "Monitoring Lingkungan"
+        ]
+      }
+    },
+    {
+      "id": "student-center",
+      "name": "Student Center IPB University",
+      "category": "faculty",
+      "description": "Pusat kegiatan organisasi kemahasiswaan, UKM, sekretariat BEM, dan aula latihan mahasiswa IPB.",
+      "coords": [
+        -6.5575,
+        106.7315
+      ],
+      "details": {
+        "alias": "SC IPB",
+        "address": "Jl. Lingkar Timur, Dekat Jln Sengked",
+        "hours": "Setiap Hari: 08.00 - 22.00 WIB",
+        "facilities": [
+          "Sekretariat UKM",
+          "Ruang Rapat",
+          "Lobby Kegiatan",
+          "Lapangan Terbuka"
+        ]
+      }
+    }
+  ]
+}

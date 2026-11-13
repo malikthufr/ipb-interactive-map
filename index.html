@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peta Interaktif Kampus IPB Dramaga Bogor - Terinspirasi Teyvat Interactive Map dan Peta Comifuro">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>Peta Interaktif IPB Dramaga</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Application CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+</head>
+<body>
+    <div id="app">
+        <!-- Top Header Bar -->
+        <header class="header-bar">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7l10 5 10-5-10-5zm0 8.7L4.7 7 12 3.3 19.3 7 12 10.7zm0 3.3L3.5 9.1v5.8L12 20.5l8.5-5.6V9.1L12 14zm0 2.2l-6-3.9v-2.7l6 3.9 6-3.9v2.7l-6 3.9z"/>
+            </svg>
+            <h1>Peta Interaktif <span>IPB Dramaga</span></h1>
+        </header>
+
+        <!-- Sidebar Panel -->
+        <aside id="sidebar" class="sidebar">
+            <!-- Search Bar -->
+            <div class="sidebar-search">
+                <div class="search-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="search-input" placeholder="Cari gedung, fakultas, kantin, fasilitas..." autocomplete="off" />
+                </div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+
+            <!-- Scrollable Body -->
+            <div class="sidebar-body">
+                <!-- Filter Section -->
+                <div id="filter-section">
+                    <div class="filter-actions">
+                        <button type="button" id="btn-show-all">Tampilkan Semua</button>
+                        <button type="button" id="btn-hide-all">Sembunyikan Semua</button>
+                    </div>
+                    <div id="filter-container" class="sidebar-filters"></div>
+                </div>
+
+                <!-- Location Detail Panel (Hidden by default) -->
+                <div id="detail-panel" class="sidebar-detail">
+                    <div class="detail-header">
+                        <h2 id="detail-name">-</h2>
+                        <span id="detail-badge" class="category-badge">-</span>
+                    </div>
+                    <div class="detail-image" id="detail-image-box">
+                        <span id="detail-icon" style="font-size: 36px;">🏛️</span>
+                    </div>
+                    <div class="detail-info">
+                        <p id="detail-desc">-</p>
+                        <div class="info-row">
+                            <span class="label">📍 Lokasi:</span>
+                            <span id="detail-address">-</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">⏰ Jam:</span>
+                            <span id="detail-hours">-</span>
+                        </div>
+                    </div>
+                    <div class="detail-facilities" id="detail-facilities"></div>
+                    <div class="detail-actions">
+                        <button type="button" class="btn-navigate" id="detail-btn-nav">🧭 Rute Ke Sini</button>
+                        <button type="button" class="btn-close" id="detail-btn-close">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Map Canvas -->
+        <main id="map"></main>
+
+        <!-- Navigation Route Panel -->
+        <div id="nav-panel" class="nav-panel">
+            <h3>🧭 Navigasi Antar Gedung</h3>
+            <label for="nav-from" style="font-size: 11px; color: var(--text-muted); display: block; margin-bottom: 3px;">Titik Awal:</label>
+            <select id="nav-from">
+                <option value="">Pilih Titik Awal...</option>
+            </select>
+
+            <label for="nav-to" style="font-size: 11px; color: var(--text-muted); display: block; margin-bottom: 3px;">Tujuan:</label>
+            <select id="nav-to">
+                <option value="">Pilih Tujuan...</option>
+            </select>
+
+            <div class="nav-buttons">
+                <button type="button" class="btn-go" id="nav-go">Cari Rute</button>
+                <button type="button" class="btn-clear" id="nav-clear">Hapus Rute</button>
+            </div>
+            <div id="nav-info" class="nav-route-info"></div>
+        </div>
+
+        <!-- Floating Action Buttons -->
+        <nav class="fab-container" aria-label="Aksi Cepat">
+            <button class="fab" id="btn-sidebar" title="Filter & Pencarian (Toggle)">🔍</button>
+            <button class="fab" id="btn-navigate" title="Navigasi Rute">🧭</button>
+            <button class="fab" id="btn-add-pin" title="Tambah Pin Pribadi">📌</button>
+            <button class="fab" id="btn-my-location" title="Reset Tampilan Peta">🏠</button>
+        </nav>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Application Scripts -->
+    <script src="js/map-config.js"></script>
+    <script src="js/markers.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/routing.js"></script>
+    <script src="js/custom-pins.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
